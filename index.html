@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <input type="button" value="Pravougaonik" id="pravougaonik"/>
+        <input type="button" value="Olovka" id="olovka"/>
+    </nav>
+    <canvas id="myCanvas" width="1280" height="400">
+
+    </canvas>
+    <form action="1.php" id="form" method="POST">
+        <div class="el_pravougaonika">
+            <label for="x">X-osa</label>
+            <input type="text" id="x-anchor"/>
+            <label for="y">Y-osa</label>
+            <input type="text" id="y-anchor"/>
+            <br/>
+
+            <label for="duzina">Duzina</label>
+            <input type="number" id="duzina" value=""/>
+            <br/>
+
+            <label for="duzina">Visina</label>
+            <input type="number" id="visina"/>
+            <br/>
+
+            <input type="button" value="Posalji parametre" id="btn"/>
+        </div>
+
+        <div class="el_olovke">
+            <select id="select">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        
+
+        <label for="boja">Boja</label>
+        <input type="color" id="color"/>
+        <br/>
+        <input type="button" value="Ocisti" id="btn2"/>
+    </form>
+</body>
+</html>

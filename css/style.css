@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#myCanvas
+{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    display: block;
+    border: 3px solid black;
+}
+form
+{
+    margin-top: 20px;
+    text-align: center;
+}
+#select
+{ 
+    padding: 4px 30px;
+}
